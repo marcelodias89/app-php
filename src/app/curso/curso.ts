@@ -1,7 +1,7 @@
 //Classe
 export class Curso{
 
-    //Construtor
-    constructor(nomeCurso:String, valorCurso:number, idCurso?:number){}
+    //Atributos
+    nomeCurso!:String; valorCurso!:number; idCurso?:number;
 
 }
